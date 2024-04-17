@@ -2,7 +2,7 @@
 
 
 # DataWarehouse
-Este script simula e analisa dados de vendas de produtos, gerando informações aleatórias sobre produtos e vendas e combinando-as em um conjunto único, simulando um armazém de dados. Analisa as vendas por produto e categoria, identificando o desempenho dos produtos e categorias mais lucrativas. Ao examinar as tendências temporais, ajuda na identificação de padrões sazonais e demanda, fornecendo insights cruciais para o planejamento estratégico e otimização das estratégias de vendas.
+Este script em Python simula e analisa dados de vendas de produtos, gerando informações aleatórias sobre produtos e vendas e combinando-as em um conjunto único, simulando um armazém de dados. Analisa as vendas por produto e categoria, identificando o desempenho dos produtos e categorias mais lucrativas. Ao examinar as tendências temporais, ajuda na identificação de padrões sazonais e demanda, fornecendo insights cruciais para o planejamento estratégico e otimização das estratégias de vendas.
 
 ## Resultados do Primeiro Script
 ![Script1](https://github.com/renebttg/DataWarehouse_DataLake/assets/114888521/5a058257-a131-409e-94cd-974f20b09172)
@@ -14,9 +14,9 @@ Este script simula e analisa dados de vendas de produtos, gerando informações 
 ![script2 parte4](https://github.com/renebttg/DataWarehouse_DataLake/assets/114888521/d13bdc16-2be2-44a8-9ccc-8ccd0dc2599c)
 
 # DataLake
-O script do Data Lake executa operações de geração de dados aleatórios, armazenamento em arquivos CSV e análise exploratória usando pandas, matplotlib e seaborn.
+O script em Python do Data Lake executa operações de geração de dados aleatórios, armazenamento em arquivos CSV e análise exploratória utilizando as bibliotecas pandas, matplotlib e seaborn.
 
-**Geração de Dados:** O script cria uma pasta 'data_lake' se ainda não existir e gera dados aleatórios em dataframes pandas. Cada dataframe é salvo como um arquivo CSV na pasta 'data_lake'.
+**Geração de Dados:** O script cria uma pasta 'data_lake' se ainda não existir e gera dados aleatórios em dataframes pandas. Cada dataframe é então salvo como um arquivo CSV na pasta 'data_lake'.
 
 **Análise dos Dados:** Após a geração dos dados, o script conecta-se a um banco de dados SQLite usando SQLAlchemy. Realiza uma análise exploratória exibindo as primeiras linhas dos dados, informações sobre os tipos de dados e valores nulos, além de um resumo estatístico. Também cria visualizações gráficas, incluindo um gráfico de dispersão, um histograma com curva de densidade e um boxplot.
 
