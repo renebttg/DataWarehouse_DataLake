@@ -2,7 +2,7 @@
 
 
 # DataWarehouse
-Este script em Python simula e analisa dados de vendas de produtos, gerando informações aleatórias sobre produtos e vendas e combinando-as em um conjunto único, simulando um armazém de dados. Analisa as vendas por produto e categoria, identificando o desempenho dos produtos e categorias mais lucrativas. Ao examinar as tendências temporais, ajuda na identificação de padrões sazonais e demanda, fornecendo insights cruciais para o planejamento estratégico e otimização das estratégias de vendas.
+Estes scripts em Python simulam e analisam dados de vendas de produtos, gerando informações aleatórias sobre produtos e vendas e combinando-as em um conjunto único, simulando um armazém de dados. Analisam as vendas por produto e categoria, identificando o desempenho dos produtos e categorias mais lucrativas. Ao examinar as tendências temporais, ajudam na identificação de padrões sazonais e demanda, fornecendo insights cruciais para o planejamento estratégico e otimização das estratégias de vendas.
 
 ## Resultados do Primeiro Script
 ![Script1](https://github.com/renebttg/DataWarehouse_DataLake/assets/114888521/5a058257-a131-409e-94cd-974f20b09172)
